@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+  }
+  
+  body {
+    font-family:'times new roman',serif, Paris;
+    Font-weight: bold;
+    background-color: #f6f0fb;
+    color: #333;
+    line-height: 1.8;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    background: linear-gradient(to right, #d5b8dc, #c98cc5);
+    color: #efddeb;
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  nav {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+  }
+  
+  nav a {
+    color: #1c1c1d;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+  
+  
+  section {
+    margin-bottom: 60px;
+  }
+  
+  h2 {
+    color: #c990b8;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .yoga-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s;
+  }
+  
+  .yoga-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .yoga-card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .yoga-card h3 {
+    color: #c498b9;
+    margin-bottom: 10px;
+  }
+  
+  body.meshima {
+    background-color: rgb(207, 183, 217);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: right; 
+  }
+
+  body.meshima h1 {
+  color: #751567;
+  text-align: right;
+  }
+
+  body.meshima p {
+  color: rgb(48, 67, 77);
+  text-align: right;
+
+  }  
+  body.meshima nav {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: right;
+
+    
+  }
+  
+  body.meshima nav a {
+    color: #1c1c1d;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background 0.3s;
+    text-align: right;
+
+  }
+  
